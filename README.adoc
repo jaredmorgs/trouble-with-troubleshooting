@@ -1,1 +1,6 @@
-= hackathon-help-system
+= How to Use
+
+For the tooling setup, follow the bundle or NPM pre-req's https://github.com/asciidoctor/asciidoctor-reveal.js/#prerequisites
+
+I chose Bundler for this presentation, so if you want to build this, run
+`# bundle exec asciidoctor-revealjs hackathon-help-system.adoc` to build it to html.

@@ -1,19 +1,17 @@
 = From Hackathon to Help System
+Jared Morgan <jaredleonmorgan@gmail.com>
 :imagesdir: images
 :backend: revealjs
-:revealjs_theme: black
+:revealjs_theme: league
 :revealjs_controls: true
 :revealjs_slideNumber: true
 :revealjs_transition: convex
 :experimental:
 
-// Follow https://github.com/asciidoctor/asciidoctor-reveal.js/#prerequisites
-// to get this presentation building on your local system.
-
 [[original_idea]]
-== The Original Idea
+== The Original Ideas
 
-image::hawkular.svg[background, size=contain]
+image::hawkular_mvp.jpg[background, size=contain]
 
 [.step]
 * Field help and long form docs.
@@ -23,11 +21,13 @@ image::hawkular.svg[background, size=contain]
 * Live rendered using `asciidoctor.js` on demand.
 
 [[challenge]]
+[%notitle]
 == The Challenge
 
-Product not designed for atomic content linking.
+image::challenge.png[background, size=contain]
 
 [.step]
+* Product not designed for atomic content linking.
 * URL slugs not implemented for page element atomicity.
 * Fields not uniquely or consistently identified.
 
@@ -62,7 +62,7 @@ image::goal-clipart.svg[background, size=contain]
 === URL Matching
 
 * Help pages named the same as the PHP page to document.
-* index.php > index.adoc > index.html
+* `index.php > index.adoc > index.html`
 * Javascript button loaded files from a pre-set location in webroot.
 
 [[watcher]]
@@ -86,7 +86,6 @@ sleep 300
 * Resides in the tools directory of the app webroot
 * Watches for changes per the `sleep` interval
 * If changes are detected, sync the html from Git to `/var/www/docs`
-* Sleep and repeat.
 
 [[judging]]
 == The Judging
@@ -132,7 +131,7 @@ image::Blueprint_of_Victory_-_NARA_-_534551.jpg[background, size=cover]
 [[big_question]]
 === The Big Question
 
-Can I get this promoted to production?
+Can we get this solution released?
 
 [[answer]]
 === The Answer
@@ -140,6 +139,7 @@ Can I get this promoted to production?
 image::We_Can_Do_It.jpg[width=400px]
 
 [[productise]]
+[%notitle]
 == Make It So
 
 image::productise_picard.jpg[background, size=contain]
@@ -147,50 +147,51 @@ image::productise_picard.jpg[background, size=contain]
 [[process]]
 === Process
 
-* Documented hack in README to capture baseline state.
+* Documented hack in `README.adoc` to capture baseline state.
 * Made an Epic with Stories and Tasks.
-* Employed Tech Writing skills to make solid Stories and Project Docs
+* Employed Tech Writing skills to make solid Stories and Project Docs.
 
 [[people]]
 === People
 
 * Worked with Hackathon engineer to hand over knowledge to dev team.
-* Worked iteratively with devs to get it right.
+* Worked iteratively with developers to "get it right".
 
 [[engineering]]
 === Engineering
 
 * Used Deploy Keys instead of self-signed RSA.
-* Decreased sync task to once a day.
-* Help Button improved to visually show presence of help files
+* Decreased sync task to once-a-day.
+* Help Button improved to visually show presence of help files.
 
 [[lessons]]
-== Lessons Learned
+== Hindsight
 
-* Works fine.
-* Has some limitations.
+* Things work OK.
+* Things can be improved.
 
-[NOTE.speaker]
---
+[[limitations]]
+=== Limitations
+
+image::present.jpg[background, size=contain]
+[.step]
 * URL matching requires the exact filename.
 * Can't use a nested file tree to group common files.
-* Changing tooling requires changes to Help Button Javascript.
-* Changing anything except content requires a code release and testing.
---
+* Changing destination html file requires changes to Help Button Javascript.
+* Missing help files cause Javascript browser errors in Developer environments.
+* Changing anything *except* content requires a code release and testing.
 
 [[future]]
-== The Future
+=== The Future
 
 image::future.jpg[background, size=contain]
 
-[NOTE.speaker]
---
+[.step]
 * Realise the Hawkular dream of config driven docs.
-* Detatch the dependency of releases from improving docs delivery.
+* Change tooling without impacting Help Button functionality.
 * Use NPM-based tooling to improve reliability.
 * Use GitLab Runners to better automate builds.
 * Set aside one day a week to write Embedded Help.
---
 
 [[takeaways]]
 == Take-aways
