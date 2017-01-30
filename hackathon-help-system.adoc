@@ -20,6 +20,15 @@ image::hawkular_mvp.jpg[background, size=contain]
 * Mapped to pages and fields with `.yml` or `.json`.
 * Live rendered using `asciidoctor.js` on demand.
 
+== An Opportunity
+
+image::opportunity.jpg[background, size=contain]
+
+[.step]
+* Ladbrokes Hackathon.
+* Volunteered from a docs perspective.
+* Was offered an opportunity.
+
 [[challenge]]
 [%notitle]
 == The Challenge
@@ -31,14 +40,7 @@ image::challenge.png[background, size=contain]
 * URL slugs not implemented for page element atomicity.
 * Fields not uniquely or consistently identified.
 
-== An Opportunity
 
-image::opportunity.jpg[background, size=contain]
-
-[.step]
-* Ladbrokes Hackathon.
-* Volunteered from a docs perspective.
-* Was offered an opportunity.
 
 [[hackathon]]
 == The Hackathon Solution
