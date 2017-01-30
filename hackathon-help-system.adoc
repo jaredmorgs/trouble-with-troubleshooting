@@ -9,13 +9,13 @@ Jared Morgan <jaredleonmorgan@gmail.com>
 :experimental:
 
 [[original_idea]]
-== The Original Ideas
+== The Original Idea
 
 image::hawkular_mvp.jpg[background, size=contain]
 
 [.step]
 * Field help and long form docs.
-* Provisioned using open source tooling.
+* Provisioned using Open Source tooling.
 * Written in AsciiDoc.
 * Mapped to pages and fields with `.yml` or `.json`.
 * Live rendered using `asciidoctor.js` on demand.
@@ -31,12 +31,22 @@ image::challenge.png[background, size=contain]
 * URL slugs not implemented for page element atomicity.
 * Fields not uniquely or consistently identified.
 
+== An Opportunity
+
+image::opportunity.jpg[background, size=contain]
+
+[.step]
+* Ladbrokes Hackathon.
+* Volunteered from a docs perspective.
+* Was offered an opportunity.
+
 [[hackathon]]
 == The Hackathon Solution
 
 image::goal-clipart.svg[background, size=contain]
 
-  * Implement an embedded help solution inside Manage.
+[.step]
+  * _DragonForce_ an embedded help solution inside Manage.
   * Display rendered help content in a new tab when you click a Help Button.
   * You have two days.
 
@@ -62,7 +72,7 @@ image::goal-clipart.svg[background, size=contain]
 === URL Matching
 
 * Help pages named the same as the PHP page to document.
-* `index.php > index.adoc > index.html`
+* `index.php > index.adoc > index.html`.
 * Javascript button loaded files from a pre-set location in webroot.
 
 [[watcher]]
@@ -82,10 +92,9 @@ cd /docs/ && \
 sleep 300
 ----
 
-[.step]
-* Resides in the tools directory of the app webroot
-* Watches for changes per the `sleep` interval
-* If changes are detected, sync the html from Git to `/var/www/docs`
+* Resides in the tools directory of the app webroot.
+* Watches for changes per the `sleep` interval.
+* Sync html changes from Git to `/var/www/docs`.
 
 [[judging]]
 == The Judging
@@ -126,7 +135,7 @@ image::we_carry_on.gif[background, size=contain]
 
 So we've made this proof of concept.
 
-image::Blueprint_of_Victory_-_NARA_-_534551.jpg[background, size=cover]
+image::Blueprint_of_Victory.jpg[background, size=cover]
 
 [[big_question]]
 === The Big Question
@@ -163,6 +172,16 @@ image::productise_picard.jpg[background, size=contain]
 * Used Deploy Keys instead of self-signed RSA.
 * Decreased sync task to once-a-day.
 * Help Button improved to visually show presence of help files.
+
+[%notitle]
+== Ship It
+
+image::ship.gif[background, size=contain]
+
+[.step]
+* Dev approved.
+* QA approved.
+* Released into the wild.
 
 [[lessons]]
 == Hindsight
