@@ -5,7 +5,7 @@ Jared Morgan <jaredleonmorgan@gmail.com>
 :revealjs_theme: league
 :revealjs_controls: true
 :revealjs_slideNumber: true
-:revealjs_transition: convex
+:revealjs_transition: concave
 :experimental:
 
 [[original_idea]]
@@ -27,7 +27,7 @@ image::opportunity.jpg[background, size=contain]
 [.step]
 * Ladbrokes Hackathon.
 * Volunteered from a docs perspective.
-* Was offered an opportunity.
+* Was offered an opportunity to submit my own hack!
 
 [[challenge]]
 [%notitle]
@@ -36,10 +36,8 @@ image::opportunity.jpg[background, size=contain]
 image::challenge.png[background, size=contain]
 
 [.step]
-* Product not designed for atomic content linking.
 * URL slugs not implemented for page element atomicity.
 * Fields not uniquely or consistently identified.
-
 
 
 [[hackathon]]
@@ -55,6 +53,8 @@ image::goal-clipart.svg[background, size=contain]
 [[mvp]]
 === MVP
 
+image::goal-clipart.svg[background, size=contain]
+
 [.step]
 * Give users access to docs inside the product.
 * Do it using open source technology.
@@ -65,6 +65,8 @@ image::goal-clipart.svg[background, size=contain]
 [[technology]]
 === Technology
 
+image::goal-clipart.svg[background, size=contain]
+
 * http://asciidoctor.org/docs/[Asciidoctor] source content.
 * https://middlemanapp.com/[Middleman] Static Site Builder.
 * https://github.com/bryanbraun/franklin[Franklin] Static Site Framework.
@@ -73,12 +75,16 @@ image::goal-clipart.svg[background, size=contain]
 [[url_matching]]
 === URL Matching
 
+image::goal-clipart.svg[background, size=contain]
+
 * Help pages named the same as the PHP page to document.
 * `index.php > index.adoc > index.html`.
 * Javascript button loaded files from a pre-set location in webroot.
 
 [[watcher]]
 === Watcher script
+
+image::goal-clipart.svg[background, size=contain]
 
 .`update-newadmin-docs.sh`
 [source,bash]
@@ -120,6 +126,7 @@ image::help_demo.gif[]
 * Totally my fault. :(
 
 [[winner]]
+[%notitle]
 === Concept Was a Winner!
 
 [quote, Dragonforce]
@@ -158,6 +165,8 @@ image::productise_picard.jpg[background, size=contain]
 [[process]]
 === Process
 
+image::productise_picard.jpg[background, size=contain]
+
 * Documented hack in `README.adoc` to capture baseline state.
 * Made an Epic with Stories and Tasks.
 * Employed Tech Writing skills to make solid Stories and Project Docs.
@@ -165,11 +174,15 @@ image::productise_picard.jpg[background, size=contain]
 [[people]]
 === People
 
+image::productise_picard.jpg[background, size=contain]
+
 * Worked with Hackathon engineer to hand over knowledge to dev team.
 * Worked iteratively with developers to "get it right".
 
 [[engineering]]
 === Engineering
+
+image::productise_picard.jpg[background, size=contain]
 
 * Used Deploy Keys instead of self-signed RSA.
 * Decreased sync task to once-a-day.
@@ -188,8 +201,9 @@ image::ship.gif[background, size=contain]
 [[lessons]]
 == Hindsight
 
+[.step]
 * Things work OK.
-* Things can be improved.
+* Things have to change for my sanity.
 
 [[limitations]]
 === Limitations
@@ -226,6 +240,7 @@ image::coffee.svg[background, size=contain]
 * That you can be an entrepreneur inside your department.
 
 [questions]
+[%notitle]
 == Questions?
 
 image::jared_metal.jpg[background, size=contain]
