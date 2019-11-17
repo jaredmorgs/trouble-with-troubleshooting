@@ -23,4 +23,6 @@ If you want to print out this presentation in PDF form, add `?print_pdf` to the 
 
 You can then use any browser PDF converter (like Google's Print to PDF) to get a copy of the slides.
 
-== License
+== Remix It
+
+Please use these slides as the starting point for your next Asciidoctor reveal.js presentation.
