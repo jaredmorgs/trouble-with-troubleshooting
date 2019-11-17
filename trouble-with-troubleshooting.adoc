@@ -1,0 +1,166 @@
+= The trouble with troubleshooting
+Jared Morgan <jaredleonmorgan@gmail.com>
+:imagesdir: images
+:backend: revealjs
+:revealjs_theme: league
+:revealjs_controls: true
+:revealjs_slideNumber: true
+:revealjs_transition: concave
+:experimental:
+:icons: font
+:revealjs_plugin_pdf: enabled
+
+== Hi I'm Jared Morgan
+
+[.step]
+* jaredleonmorgan@gmail.com
+* https://twitter.com/jaredmorgs[@jaredmorgs]
+* https://writethedocs.slack.com #general room.
+* https://slack.thegooddocsproject.dev
+
+== Troubleshooting
+
+Everything malfunctions eventually.
+
+When it does you rely on troubleshooting sections in docs to solve your problems.
+
+== Troubleshooting done right
+
+Troubleshooting steps should do the following:
+
+* Re-assure you that "you've got this"
+* Give you just enough info to solve the problem
+* Be mindful of your mental state
+* Give you a path when troubleshooting fails.
+
+=== !
+
+When done well you get users reacting like this:
+
+image::shock.jpg[Photo by Ben White on Unsplash, background, size=contain]
+
+== Troubleshooting done wrong
+
+When troubleshooting is not done well...
+
+[.red.background]
+=== It causes frustration
+
+image::frustration.jpg[Photo by FuYong Hua on Unsplash, size=contain]
+
+=== Support calls
+
+image::calls.jpg[Photo by Icons8 Team on Unsplash, size=contain]
+
+=== No love on the internets for your business
+
+image::socials.jpg[Photo by Prateek Katyal on Unsplash, size=contain]
+
+== Why does troubleshooting often fail?
+
+* You don't understand how your audience scans your docs.
+* You don't focus on symptoms.
+* You don't consider how they might be feeling at the time.
+* You don't solve their problem!
+
+== The trouble with blenders
+
+When they work, they are fantastic.
+
+When they stop half-way through a blend...
+
+=== !
+
+You want to do this to them...
+
+image::blender.gif[size=contain]
+
+== Scenario
+
+image::acai-before.jpg[background, size=contain]
+
+=== !
+
+image::acai-after.jpg[background, size=contain]
+
+=== !
+
+image::manual.jpg[background, size=contain]
+
+=== !
+
+image::troubleshooting.jpg[background, size=contain]
+
+=== !
+
+Huh? What's this about Interlock herbidy glerbity blerty blergh
+
+image::troubleshooting-section.jpg[background, size=contain]
+
+== Why did these steps fail for me?
+
+* Couldn't find the symptom: "flashing status light"
+* Didn't emphathise with my mental state: "frustrated"
+* Used Jargon: "Interlock Protection" (dude WTF),
+* ...blender will need to be reset if the interlock is not properly engaged.
+
+=== !
+
+image::troubleshooting-section.jpg[]
+
+=== How I was feeling after reading this
+
+"Reset the flamin' blender?"
+
+"How long is that going to take"
+
+"They're getting a frickin' email about this X-("
+
+"Guess I'm having granola for breakfast..."
+
+== I sent them an email...
+
+It took them two days to get back to me.
+
+They asked me for my serial number?
+
+What does that have to do with status lights?
+
+Frustration > Indifference > TECH WRITING!!!!
+
+== I sent them revised copy
+
+=== Symptom
+
+Blender Light Is Flashing
+
+=== Condition
+
+The status light on your blender blinks at different rates (slow, solid, fast).
+
+This happens when the blender bowl interlock or temperature sensors detect a problem.
+
+=== Solution
+
+You can often solve these problems by reading the explanation and troubleshooting steps for each light sequence on page 8 of this manual.
+
+=== If all else fails
+
+If you still have problems with your blender after troubleshooting the issue, contact Customer Support through the numbers and methods in the back of your manual.
+
+== Do it right, or don't do it
+
+Troubleshooting is useless if it doesn't help your customers solve problems in their language.
+
+Talk to your users.
+
+Understand their needs.
+
+Fix their problems.
+
+== Say G'day
+
+* jaredleonmorgan@gmail.com
+* https://twitter.com/jaredmorgs[@jaredmorgs]
+* https://writethedocs.slack.com #general room.
+* https://slack.thegooddocsproject.dev

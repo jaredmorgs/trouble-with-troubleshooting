@@ -10,6 +10,6 @@ You can watch this at https://www.youtube.com/watch?v=kEkRWz3HCys
 
 For the tooling setup, follow the bundle or NPM pre-req's https://github.com/asciidoctor/asciidoctor-reveal.js/#prerequisites
 
-I chose Bundler for this presentation. 
+I chose Bundler for this presentation.
 If you want to build this, run
-`# bundle exec asciidoctor-revealjs hackathon-help-system.adoc` to build it to html.
+`# bundle exec asciidoctor-revealjs trouble-with-troubleshooting.adoc` to build it to html.
